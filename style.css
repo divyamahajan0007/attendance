@@ -11,7 +11,8 @@ body {
   width: 30%;
   margin: 50px auto 0px;
   color: white;
-  background: #5F9EA0;
+/*  background: #5F9EA0;*/
+  background-color: #261d83;
   text-align: center;
   border: 1px solid #B0C4DE;
   border-bottom: none;
@@ -42,14 +43,14 @@ form, .content {
   border-radius: 5px;
   border: 1px solid gray;
 }
-.btn {
+/*.btn {
   padding: 10px;
   font-size: 15px;
   color: white;
   background: #5F9EA0;
   border: none;
   border-radius: 5px;
-}
+}*/
 .error {
   width: 92%; 
   margin: 0px auto; 
@@ -65,3 +66,17 @@ form, .content {
   background: #dff0d8; 
   border: 1px solid #3c763d;
   margin-bottom: 20px;
+}
+
+.home_btn {
+  background-color: #9343cc; /* Set the background color */
+  color: rgb(255, 255, 255); /* Set the text color */
+  padding: 20px 30px; /* Add some padding */
+  font-size: 50px; /* Set the font size */
+  border: none;
+  cursor: pointer;
+}
+
+.home_btn:hover {
+  background-color: #ec4289; /* Change the background color on hover */
+}

@@ -1,6 +1,6 @@
 <?php
 
-	var_dump($_POST);
+	
 	$subject = $_POST['subject'];
 	$subject_code = $_POST['subject_code'];
 	$unit = $_POST['unit'];

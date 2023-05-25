@@ -29,11 +29,15 @@
       <input type="password" name="password_2">
     </div>
     <div class="input-group">
+      <a href="home.html">
       <button type="submit" class="btn" name="reg_user">Register</button>
+      </a>
     </div>
+
     <p>
-        Already a member? <a href="login.php">Sign in</a>
+        Already a member? <a href="login.php">Login</a>
     </p>
+
   </form>
 </body>
 </html>

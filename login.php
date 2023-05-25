@@ -1,4 +1,4 @@
-login.php
+
 <?php include('server.php') ?>
 <!DOCTYPE html>
 <html>
@@ -25,7 +25,7 @@ login.php
   		<button type="submit" class="btn" name="login_user">Login</button>
   	</div>
   	<p>
-  		Not yet a member? <a href="registration.php">Login up</a>
+  		Not yet a member? <a href="registration.php">Sign Up</a>
   	</p>
   </form>
 </body>

@@ -7,7 +7,8 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            color: #250b3e;
+            
+            background: #F8F8FF;
         }
 
 	.container{
@@ -81,7 +82,7 @@
 
 	<div class="container">
 	
-	<form method="POST" action="connection.php">
+	<form method="POST" action="home.html">
 		
 		<label>Subject:</label>
 		<input type="text" name="subject">
@@ -101,7 +102,11 @@
 		<label>Lecture Number:</label>
 		<input type="text" name="lecture_number">
 			<br><br><br>
+			
+		
 		<input class= "btn" type="submit" value="submit">
+		
+
 	</form>
 </div>
 </body>
