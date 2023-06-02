@@ -99,15 +99,16 @@
       <thead>
         <tr>
           <th>Date</th>
-          <th>lecture_no</th>
           <th>Subject</th>
+          <th>Lecture_no</th>
+          <th>Unit</th>
+          <th>Topic</th>
           <th>Records</th>
         </tr>
       </thead>
       <tbody>
         <tr>
           <td><input type="date" name="date1"></td>
-          <td><input type="text" name="lecture_no"></td>
            <td><lable for="subject">Subject</lable>
                     <select name="mySub" id="subject">
                         <option value="DBMS">DBMS</option>
@@ -117,13 +118,40 @@
                         <option value="SE">SE</option>
                         
                     </select></td>
+                    <td><input type="text" name="lecture_no"></td>
+
+                     <td><lable for="unitno">Units</lable>
+                    <select name="unitno" id="unit">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        
+                    </select></td>
+
+                    <td><lable for="topicno">Topics</lable>
+                    <select name="topicno" id="topic">
+            
+
+                        <option value=""></option>
+                        <option value="3.1.Introduction to SQL">3.1.Introduction to SQL</option>
+                        <option value="3.2.SQL operators Tables">3.2.SQL operators Tables</option>
+                        <option value="3.3.Aggregate Functions">3.3.Aggregate Functions</option>
+                        <option value="3.4.Triggers">3.4.Triggers</option>
+                        <option value="3.5.Embedded And Dynamic SQL">3.5.Embedded And Dynamic SQL</option>
+                        <option value="3.6.SQL and DML Queries">3.6.SQL and DML Queries</option>
+                        }
+                    </select></td>
+                    
  
           <td><input type="text" name="records"></td>
         </tr>
       </tbody>
     </table>
     
-        <input class= "btn" type="submit" value="submit">
+        <input class= "btn" type="Submit" value="Submit">
 
   </form>
 
